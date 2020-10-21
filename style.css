@@ -9,8 +9,9 @@ h2 {
 }
 
 body {
-  background-color: rgba(240, 240, 240, 1.0);
+  /*background-color: rgba(240, 240, 240, 1.0);*/
   font-family: Staatliches, sans-serif;
+  background: url("https://images.sudouest.fr/2019/04/17/5cb7455d66a4bd737f5ac1f3/widescreen/1000x500/le-petit-flan-fondant.jpg")
   /*font-weight: 100;*/
 }
 
@@ -26,7 +27,7 @@ a {
 .card {
   background-color: white;
   padding: 10px;
-  margin: 15px auto;
+  margin: 40px 40px auto;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
@@ -64,7 +65,6 @@ a {
   font-size: 40px;
 }
 
-
 @media (max-width: 1200px) {
   /* For a screen < 1200px, this CSS will be read */
   .container {
@@ -88,7 +88,4 @@ a {
   .container {
     width: 300px;
   }
-}
-#containtessr {
-
 }
